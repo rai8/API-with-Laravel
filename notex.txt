@@ -1,0 +1,13 @@
+---CREATE A MODEL WITH MIGRATION----
+
+        php artisan make:model Student -m
+
+----AFTER MAKING CHANGES TO THE MODEL AND MIGRATION FILE -------
+
+        php artisan migrate
+
+------SETTING UP CONTROLLERS TO HANDLE ROUTES LOGIC ----------
+
+        php artisan make:controller ApiController
+
+*** All routes in api.php are prefixed with /api by default***
